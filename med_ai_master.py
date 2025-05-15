@@ -65,7 +65,7 @@ especialidades = [
     "Otorrinolaringologia", "Pediatria", "Oncologia", "Nutrologia"
 ]
 
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="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")
 
 # ========== LAYOUT PRINCIPAL ==========
 st.selectbox("Especialidade Médica:", especialidades, key="especialidade")
